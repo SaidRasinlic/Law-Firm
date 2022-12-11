@@ -1,46 +1,63 @@
-# Getting Started with Create React App and Redux
+# Law-Firm
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+To be added...
 
-## Available Scripts
+## Screenshot
+To be added...
+<!-- <p align="center"><img src="./app/assets/images/Budget-App.png" alt="Desktop Snapshot" /> -->
 
-In the project directory, you can run:
 
-### `yarn start`
+## Built With
+To be added...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- - Ruby on Rails
+- PostgreSQL
+- Bootstrap
+- SCSS, CSS
+- Gems (Gemfile)
+- Linters (Rubocop)
+- VSCode
+- Git Bash
+- GitHub -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `yarn test`
+To get a local copy up and running follow these simple example steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+To be added...
+<!-- - Laptop or Desktop
+- Web Browser
+- Ruby (installed and set up)
+- IDE (preferably Visual Studio Code)
+- Programming Knowledge -->
 
-### `yarn build`
+### Installation, Setup and Usage
+To be added...
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Author
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👤 **Said Rasinlic**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- GitHub: [@GitHub/SaidRasinlic](https://github.com/SaidRasinlic)
+- Twitter: [@Twitter/SaidRasinlic](https://twitter.com/SaidRasinlic)
+- LinkedIn: [@LinkedIn/SaidRasinlic](https://www.linkedin.com/in/SaidRasinlic)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🤝 Contributing
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions, issues, and feature requests are welcome!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to check the [issues page](../../issues/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Show your support
 
-## Learn More
+Give a ⭐️ if you like this project!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- S.R.
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
