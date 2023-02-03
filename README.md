@@ -3,7 +3,7 @@
 This is my first freelance project, which I completed for my brother, a lawyer, and I'm happy to report that he was really pleased with the results. I wanted to make it appear both contemporary and timeless because law should always have a classic feel to it.
 
 ## Screenshot
-<p align="center"><img src="./app/assets/images/Project-Snap.png" alt="Desktop Snapshot" />
+<p align="center"><img src="./src/assets/images/Project-Snap.png" alt="Desktop Snapshot" />
 
 
 ## Built With
