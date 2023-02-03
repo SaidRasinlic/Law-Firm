@@ -13,7 +13,7 @@ import { MdArrowBackIos, MdArrowForwardIos } from 'react-icons/md';
 
 const BlogPagination = () => {
   const [blogData, setBlogData] = useState([]);
-  const URL = '/api/blogs';
+  const URL = 'https://advokat-rasinlic.com/api/blogs';
 
   useEffect(() => {
     fetch(URL)
