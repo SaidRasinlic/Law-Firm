@@ -1,39 +1,36 @@
 # Law-Firm
 
-To be added...
+This is my first freelance project, which I completed for my brother, a lawyer, and I'm happy to report that he was really pleased with the results. I wanted to make it appear both contemporary and timeless because law should always have a classic feel to it.
 
 ## Screenshot
-To be added...
-<!-- <p align="center"><img src="./app/assets/images/Budget-App.png" alt="Desktop Snapshot" /> -->
+<p align="center"><img src="./app/assets/images/Project-Snap.png" alt="Desktop Snapshot" />
 
 
 ## Built With
-To be added...
-
-<!-- - Ruby on Rails
-- PostgreSQL
-- Bootstrap
+- React (front-end)
+- Node (back-end)
+- MySQL (database)
 - SCSS, CSS
-- Gems (Gemfile)
-- Linters (Rubocop)
+- Linters (eslint, stylelint)
 - VSCode
 - Git Bash
-- GitHub -->
+- GitHub
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+As it was created for my client, this project is not open source and is only being displayed here for presentation.
+
 
 ### Prerequisites
 To be added...
-<!-- - Laptop or Desktop
+- Laptop or Desktop
 - Web Browser
-- Ruby (installed and set up)
+- Node & MySQL (installed and set up)
 - IDE (preferably Visual Studio Code)
-- Programming Knowledge -->
+- Programming Knowledge
 
 ### Installation, Setup and Usage
-To be added...
+Since this is a freelancing project, plagiarizing is strictly prohibited. All of the information is secure and protected from open source.
 
 ## Author
 
