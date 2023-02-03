@@ -1,6 +1,6 @@
 {
   "name": "law-firm",
-  "homepage": "https://SaidRasinlic.github.io/Law-Firm.git",
+  "homepage": "https://SaidRasinlic.github.io/Law-Firm",
   "proxy": "https://advokat-rasinlic.com/api/",
   "version": "0.1.0",
   "private": true,
@@ -34,7 +34,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
