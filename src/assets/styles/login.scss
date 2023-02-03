@@ -1,0 +1,52 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../images/wave.svg') no-repeat;
+  background-size: cover;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border: 1px solid #000;
+    height: 500px;
+    width: 500px;
+    font-family: fangsong;
+    background: url('../images/moon.svg') no-repeat top;
+    background-size: cover;
+
+    .login-h2 {
+      font-size: 42px;
+    }
+
+    .login-input {
+      color: #000;
+      border: none;
+      border-bottom: 1px solid #000;
+      outline: none;
+      font-family: fangsong;
+      font-size: 20px;
+      background: none;
+    }
+
+    .login-input:focus {
+     box-shadow: none;
+    }
+
+    .login-btn-sbmt {
+      width: 100%;
+      font-size: 17px;
+      font-family: fangsong;
+      padding: 5px 35px;
+    }
+
+    .login-btn-sbmt:hover {
+      background: #000;
+      color: #fff;
+    }
+  }
+}

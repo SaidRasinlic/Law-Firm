@@ -1,0 +1,36 @@
+#faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 46px;
+  font-style: "Outfit", sans-serif;
+  font-weight: bold;
+  color: #000;
+}
+
+#faq-list {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  font-family: fangsong, sans-serif !important;
+  padding: 0 5%;
+
+  li {
+    list-style-type: decimal;
+    margin: 25px;
+  }
+
+  li p:first-child,
+  li::marker {
+    color: goldenrod;
+    border-bottom: 1px solid goldenrod;
+    width: fit-content;
+    padding: 5px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  li p:nth-child(2) {
+    font-size: 18px;
+  }
+}

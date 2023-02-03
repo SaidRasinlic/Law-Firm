@@ -1,0 +1,36 @@
+.loc-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    font-size: 46px;
+    font-family: fangsong;
+    font-weight: bold;
+    color: #000;
+  }
+}
+
+.loc-wrap {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  height: 100%;
+  width: 100%;
+  padding: 0 5%;
+  margin-bottom: 50px;
+}
+
+.loc-img {
+  background: url('https://meetbosnia.com/wp-content/uploads/2022/04/What-to-see-in-Sarajevo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .loc-wrap {
+    grid-template-columns: none;
+    grid-template-rows: 2fr 3fr;
+  }
+}

@@ -1,0 +1,169 @@
+.container-form {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 1em 0 1em;
+  margin-bottom: 100px;
+
+  ul {
+    list-style: none;
+    padding:0;
+  }
+}
+
+
+.brand{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 46px;
+  font-family: fangsong;
+  font-weight: bold;
+  color: #000;
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(45deg, goldenrod, transparent);
+}
+
+.company-info ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  color: white;
+  font-weight: bold;
+}
+
+ .company-info ul {
+  margin: 0 0 1rem 0;
+}
+
+.company-info ul li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+}
+
+.form-col-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+  margin: 0;
+  color: whitesmoke;
+}
+
+.form-col-two {
+  width: calc(100% - 50px);
+  color: #000;
+  font-family: auto;
+  font-size: 17px;
+}
+
+.new-form-href {
+  color: midnightblue;
+  text-decoration: none;
+}
+
+.new-form-h3 {
+  font-size: 22px;
+  color: #000;
+}
+
+.contact{
+  background:#f9feff;
+}
+
+.contact form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact form p{
+  margin:0;
+}
+
+.contact form .full{
+  grid-column: 1 / 3;
+}
+
+.contact form .full-flex-center {
+  grid-column: 1 / 3;
+  justify-self: center;
+}
+
+.contact form input,
+.contact form textarea{
+  width:100%;
+  padding:1em;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  font-family: fangsong;
+}
+
+.contact form .control-btn {
+  width: 200px;
+  padding: 1rem;
+  align-self: center;
+}
+
+.contact form .control-btn:hover {
+  color: #f8cb2e;;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #f8cb2e;
+}
+
+@media(min-width:701px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 701px) {
+  .contact form {
+    padding: 40px;
+  }
+  .new-form-h3 {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container-form {
+    padding: 0;
+  }
+
+  .company-info {
+    ul {
+      padding: 20px;
+    }
+  }
+
+  .contact form {
+    padding: 20px;
+  }
+
+  .new-form-h3 {
+    padding: 0 20px;
+  }
+}

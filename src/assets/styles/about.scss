@@ -1,0 +1,122 @@
+#about-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+  background: #fff;
+  // background: rgba(122, 59, 14, 0.255);
+  // background: rgb(41, 25, 5);
+
+}
+
+.about-wrapper {
+  background: url('../images/suitman-handwriting.jpg') no-repeat left;
+  background-size: 55%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.inner-container{
+  width: 55%;
+  float: right;
+  background-color: #fdfdfd;
+  padding: 150px;
+
+  h2 {
+    font-size: 46px;
+    font-style: 'Outfit', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+    margin-top: 30px;
+  }
+
+  h2::after {
+    content:'';
+    position: absolute;
+    background-color: chocolate;
+    width: 3px;
+    height: 80%;
+    top: -10px;
+    left:-15px;
+   
+  }
+  
+  h2::before{
+    content:'';
+    position: absolute;
+    background-color: chocolate;
+    width: 15%;
+    height: 3px;
+    top: -10px;
+    left:-12px;
+  }
+}
+
+.text{
+  font-size: 15px;
+  color: #545454;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.skills{
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .inner-container{
+      padding: 80px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+  .about-wrapper {
+      background-size: 100%;
+      padding: 100px 40px;
+  }
+  
+  .inner-container{
+      width: 100%;
+      h2 {
+        font-size: 36px;
+      }
+  }
+}
+
+@media only screen and (max-width:600px){
+  .about-wrapper {
+      padding: 0;
+  }
+  .inner-container {
+      padding: 60px;
+
+      h2 {
+        font-size: 26px;
+      }
+  }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .inner-container {
+    h2 {
+      font-size: 26px;
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 481px) {
+  .inner-container {
+    .skills {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  }  
+}

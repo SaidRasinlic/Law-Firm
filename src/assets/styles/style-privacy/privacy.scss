@@ -1,0 +1,12 @@
+.privacy-policy,
+.terms-of-service {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin: 50px;
+  word-spacing: 1.2px;
+  
+  ul li {
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,42 @@
+.about-page-section {
+  margin: 0;
+  font-family: Avenir;
+  color: #000;
+  text-shadow: 0 1px 0 #333;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+
+  p {
+    font-family: Marion;
+  }
+
+  h1 {
+    font-size: 46px;
+    font-family: fangsong;
+    font-weight: bold;
+    color: #000;
+  }
+
+  #about-page-wrapper {
+    padding: 5%;
+    margin: 40px 5% 100px;
+    border: 2px solid rgba( 255, 255, 255, 0.4 );
+    border-radius: 6px;
+    box-shadow: 0 15px 20px -12px rgba(0, 0, 0, 0.5);
+    background: #1c1b29;
+    color: aliceblue;
+  }
+
+  #about-page-text {
+    padding: 20px 10%;
+    font-size: 1.5em;
+  }
+}
