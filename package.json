@@ -1,7 +1,7 @@
 {
   "name": "law-firm",
   "homepage": "https://SaidRasinlic.github.io/Law-Firm/",
-  "proxy": "https://advokat-rasinlic.com/api/",
+  "proxy": "https://advokat-rasinlic.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
