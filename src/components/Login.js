@@ -31,7 +31,7 @@ const Login = () => {
 
   const handleSubmitLogin = (e) => {
     e.preventDefault();
-    const URL = '/api/login';
+    const URL = 'https://advokat-rasinlic.com/api/login';
 
     if (usernameLogin.length === 0) {
       usernameNotify();

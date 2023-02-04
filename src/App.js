@@ -29,7 +29,7 @@ import BlogPagination from './components/BlogPagination';
 
 export default function App() {
   const { pathname, hash, key } = useLocation();
-  const URL = '/api/verify-user-auth';
+  const URL = 'https://advokat-rasinlic.com/api/verify-user-auth';
 
   useEffect(() => {
     // if not a hash link, scroll to top
