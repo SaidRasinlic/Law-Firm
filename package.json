@@ -1,6 +1,6 @@
 {
   "name": "law-firm",
-  "homepage": "https://advokat-rasinlic.com/",
+  "homepage": "https://advokat-rasinlic.com/Law-Firm/",
   "proxy": "https://advokat-rasinlic.com/api/",
   "version": "0.1.0",
   "private": true,
