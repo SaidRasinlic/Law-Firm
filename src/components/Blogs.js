@@ -7,7 +7,7 @@ import SEO from './SEO';
 
 const Blogs = () => {
   const [blogData, setBlogData] = useState([]);
-  const URL = 'https://advokat-rasinlic.com/api/recent-blogs';
+  const URL = '/api/recent-blogs';
 
   useEffect(() => {
     fetch(URL)

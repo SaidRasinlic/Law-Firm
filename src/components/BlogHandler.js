@@ -42,7 +42,7 @@ const BlogHandler = ({ editorStateProp }) => {
   });
 
   const handleSubmit = () => {
-    const URL = 'https://advokat-rasinlic.com/api/blogs';
+    const URL = '/api/blogs';
 
     if (img.length === 0) {
       imgNotify();

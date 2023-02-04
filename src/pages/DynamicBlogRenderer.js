@@ -13,7 +13,7 @@ const DynamicBlogRenderer = () => {
   const navigate = useNavigate();
   const [blogItems, setBlogItems] = useState();
 
-  const URL = 'https://advokat-rasinlic.com/api/blogs/blog';
+  const URL = '/api/blogs/blog';
 
   useEffect(() => {
     fetch(`${URL}/${id}`)

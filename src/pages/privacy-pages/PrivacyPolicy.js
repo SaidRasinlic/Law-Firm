@@ -471,7 +471,7 @@ export default function PrivacyPolicy() {
         <li>
           Email:
           {' '}
-          <a style={{ color: '#551A8B', textDecoration: 'none' }} href="mailto:rasinlic.senad@gmail.com">rasinlic.senad@gmail.com</a>
+          <a style={{ color: '#551A8B', textDecoration: 'none' }} href="mailto:info@advokat-rasinlic.com">info@advokat-rasinlic.com</a>
         </li>
       </ul>
     </section>
