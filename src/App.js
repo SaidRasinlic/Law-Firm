@@ -64,7 +64,7 @@ export default function App() {
         <Header />
         <main>
           <Routes>
-            <Route path="/Law-Firm" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/Law-Firm/o-meni" element={<AboutPage />} />
             <Route path="/Law-Firm/pravne-oblasti" element={<PracticePage />} />
             <Route path="/Law-Firm/pravni-postupci" element={<ProceduralPage />} />
