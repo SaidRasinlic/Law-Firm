@@ -18,19 +18,19 @@ export default function Footer() {
                 Senad Rašinlić
               </h4>
               <ul className="nav-items">
-                <li><a href="/o-meni#opsirnije">&gt; O meni</a></li>
-                <li><a href="/#moje-usluge">&gt; Moje usluge</a></li>
-                <li><a href="/privatnost-informacija#privatnost">&gt; Privatnost informacija</a></li>
-                <li><a href="/uvjeti-pružanja-usluge#uvjeti-web">&gt; Uvjeti pružanja usluge</a></li>
+                <li><a href="o-meni#opsirnije">&gt; O meni</a></li>
+                <li><a href="#moje-usluge">&gt; Moje usluge</a></li>
+                <li><a href="privatnost-informacija#privatnost">&gt; Privatnost informacija</a></li>
+                <li><a href="uvjeti-pružanja-usluge#uvjeti-web">&gt; Uvjeti pružanja usluge</a></li>
               </ul>
             </div>
             <div className="footer-col">
               <h4>Navigacija</h4>
               <ul className="nav-items">
-                <li><a href="/tarifa#tarifa-info">&gt; Tarifa</a></li>
-                <li><a href="/najčešća-pitanja#faq">&gt; Česta pitanja</a></li>
-                <li><a href="/pravne-oblasti#lista-oblasti">&gt; Oblasti</a></li>
-                <li><a href="/pravni-postupci#lista-postupaka">&gt; Postupci</a></li>
+                <li><a href="tarifa#tarifa-info">&gt; Tarifa</a></li>
+                <li><a href="najčešća-pitanja#faq">&gt; Česta pitanja</a></li>
+                <li><a href="pravne-oblasti#lista-oblasti">&gt; Oblasti</a></li>
+                <li><a href="pravni-postupci#lista-postupaka">&gt; Postupci</a></li>
 
               </ul>
             </div>
