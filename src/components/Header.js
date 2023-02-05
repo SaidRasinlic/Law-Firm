@@ -37,7 +37,7 @@ export default function Header() {
           toggled={isOpen}
           onToggle={handleClick}
         />
-        <a href="/Law-firm">
+        <a href="/Law-Firm">
           <img src={logo} alt="Logo" />
         </a>
       </div>
@@ -75,7 +75,7 @@ export default function Header() {
             <br />
             možete osloniti
           </span>
-          <a href="/Law-Firm/kontakt#kontakt-forma" className="consultation-btn">ZAKAŽITE KONSULTACIJE</a>
+          <a href="/kontakt#kontakt-forma" className="consultation-btn">ZAKAŽITE KONSULTACIJE</a>
           <hr className="hor-linez" />
         </h1>
       </Slide>
