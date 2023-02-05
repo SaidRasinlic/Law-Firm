@@ -75,7 +75,7 @@ export default function Header() {
             <br />
             možete osloniti
           </span>
-          <a href="kontakt#kontakt-forma" className="consultation-btn">ZAKAŽITE KONSULTACIJE</a>
+          <a href="/Law-Firm/kontakt#kontakt-forma" className="consultation-btn">ZAKAŽITE KONSULTACIJE</a>
           <hr className="hor-linez" />
         </h1>
       </Slide>
