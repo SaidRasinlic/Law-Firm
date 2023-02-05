@@ -70,9 +70,9 @@ export default function App() {
             <Route path="/pravni-postupci" element={<ProceduralPage />} />
             <Route path="/kontakt" element={<ContactPage />} />
             <Route path="/lokacija" element={<LocationPage />} />
-            <Route path="/privatnost-informacija" element={<PrivacyPolicy />} />
-            <Route path="/uvjeti-pružanja-usluge" element={<TermsOfService />} />
-            <Route path="/najčešća-pitanja" element={<Faq />} />
+            <Route path="/Law-Firm/privatnost-informacija" element={<PrivacyPolicy />} />
+            <Route path="/Law-Firm/uvjeti-pružanja-usluge" element={<TermsOfService />} />
+            <Route path="/Law-Firm/najčešća-pitanja" element={<Faq />} />
             <Route path="/tarifa" element={<Tariff />} />
             <Route path="/blogovi" element={<BlogPagination />} />
             <Route path="/advokatr-admin-login" element={<Login />} />
