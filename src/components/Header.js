@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Slide, Bounce } from 'react-awesome-reveal';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { AiFillPhone } from 'react-icons/ai';
 import { MdLocationOn } from 'react-icons/md';
 import Hamburger from 'hamburger-react';
@@ -75,7 +75,7 @@ export default function Header() {
             <br />
             možete osloniti
           </span>
-          <a href="/Law-Firm/kontakt#kontakt-forma" className="consultation-btn">ZAKAŽITE KONSULTACIJE</a>
+          <Link to="/Law-Firm/kontakt#kontakt-forma" className="consultation-btn">ZAKAŽITE KONSULTACIJE</Link>
           <hr className="hor-linez" />
         </h1>
       </Slide>
