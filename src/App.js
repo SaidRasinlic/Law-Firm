@@ -65,21 +65,21 @@ export default function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/Law-Firm/o-meni" element={<AboutPage />} />
-            <Route path="/Law-Firm/pravne-oblasti" element={<PracticePage />} />
-            <Route path="/Law-Firm/pravni-postupci" element={<ProceduralPage />} />
-            <Route path="/Law-Firm/kontakt" element={<ContactPage />} />
-            <Route path="/Law-Firm/lokacija" element={<LocationPage />} />
-            <Route path="/Law-Firm/privatnost-informacija" element={<PrivacyPolicy />} />
-            <Route path="/Law-Firm/uvjeti-pružanja-usluge" element={<TermsOfService />} />
-            <Route path="/Law-Firm/najčešća-pitanja" element={<Faq />} />
-            <Route path="/Law-Firm/tarifa" element={<Tariff />} />
-            <Route path="/Law-Firm/blogovi" element={<BlogPagination />} />
-            <Route path="/Law-Firm/advokatr-admin-login" element={<Login />} />
+            <Route path="/o-meni" element={<AboutPage />} />
+            <Route path="/pravne-oblasti" element={<PracticePage />} />
+            <Route path="/pravni-postupci" element={<ProceduralPage />} />
+            <Route path="/kontakt" element={<ContactPage />} />
+            <Route path="/lokacija" element={<LocationPage />} />
+            <Route path="/privatnost-informacija" element={<PrivacyPolicy />} />
+            <Route path="/uvjeti-pružanja-usluge" element={<TermsOfService />} />
+            <Route path="/najčešća-pitanja" element={<Faq />} />
+            <Route path="/tarifa" element={<Tariff />} />
+            <Route path="/blogovi" element={<BlogPagination />} />
+            <Route path="/advokatr-admin-login" element={<Login />} />
             <Route element={<ProtectedRoute />}>
-              <Route path="/Law-Firm/advokatr-admin-blogs" element={<RichTextEditor />} />
+              <Route path="/advokatr-admin-blogs" element={<RichTextEditor />} />
             </Route>
-            <Route path="/Law-Firm/:url/:id" element={<DynamicBlogRenderer />} />
+            <Route path="/:url/:id" element={<DynamicBlogRenderer />} />
           </Routes>
         </main>
         <Footer />

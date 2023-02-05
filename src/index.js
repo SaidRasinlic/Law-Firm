@@ -6,7 +6,7 @@ import './assets/styles/index.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter basename="/Law-Firm">
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <App />
   </HashRouter>,
 );
