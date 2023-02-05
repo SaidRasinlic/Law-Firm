@@ -18,7 +18,7 @@ export default function About() {
              (razvodi i bračni sporovi, podjela bračnih stečevina, starateljstvo nad djecom),
              nasljednopravni odnosi (ostavinski postupci i sve u vezi nasljeđivanja).`.substring(0, 480)}
               <a
-                href="/o-meni#opsirnije"
+                href="/Law-Firm/o-meni#opsirnije"
                 className="read-more-btn"
                 style={{
                   color: 'chocolate', fontSize: '14px', fontStyle: 'italic', fontWeight: 'bold',

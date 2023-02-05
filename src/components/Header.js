@@ -37,14 +37,14 @@ export default function Header() {
           toggled={isOpen}
           onToggle={handleClick}
         />
-        <a href="/">
+        <a href="/Law-firm">
           <img src={logo} alt="Logo" />
         </a>
       </div>
       <nav id="nav">
         <ul className={`nav-items ${menuVisibility}`}>
           <li id="user-logo">
-            <a href="/">
+            <a href="/Law-Firm">
               <img src={logo} alt="Logo" />
             </a>
           </li>
