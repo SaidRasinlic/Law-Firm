@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Law-Firm/static/css/main.7eea47e0.css",
+    "main.js": "/Law-Firm/static/js/main.ba5b7b62.js",
+    "static/media/footer-bg.jpg": "/Law-Firm/static/media/footer-bg.2a2df8444be966825e8b.jpg",
+    "static/media/faculty-of-law.jpg": "/Law-Firm/static/media/faculty-of-law.79a7e0c2467b9ce8d3ff.jpg",
+    "static/media/palace-of-justice.png": "/Law-Firm/static/media/palace-of-justice.2e57724e5bf059794f63.png",
+    "static/media/procedural-5.jpg": "/Law-Firm/static/media/procedural-5.38c5176284372fedc29e.jpg",
+    "static/media/card-img-1.png": "/Law-Firm/static/media/card-img-1.0ab3bc1256ff1ac41ab1.png",
+    "static/media/balance.png": "/Law-Firm/static/media/balance.f6ffbb4864c862938a0f.png",
+    "static/media/card-img-6.jpg": "/Law-Firm/static/media/card-img-6.ab7576223284f3ea1a5e.jpg",
+    "static/media/golden-texture.png": "/Law-Firm/static/media/golden-texture.6f25869dd69d83636c7f.png",
+    "static/media/card-img-2.jpg": "/Law-Firm/static/media/card-img-2.6e6d351fdcf60b4da659.jpg",
+    "static/media/card-img-5.jpg": "/Law-Firm/static/media/card-img-5.f6943d3b29502a9c26b3.jpg",
+    "static/media/procedural-6.jpg": "/Law-Firm/static/media/procedural-6.dff97f900c1db8331a71.jpg",
+    "static/media/test-orig.png": "/Law-Firm/static/media/test-orig.55c496c17f7efac156e2.png",
+    "static/media/card-img-7.jpg": "/Law-Firm/static/media/card-img-7.cd641d89613468b4be10.jpg",
+    "static/media/procedural-4.jpg": "/Law-Firm/static/media/procedural-4.f8cc7c19a10e079f5250.jpg",
+    "static/media/procedural-7.jpg": "/Law-Firm/static/media/procedural-7.8d40122329d9fb858e86.jpg",
+    "static/media/corporate.jpg": "/Law-Firm/static/media/corporate.411100aed38b7986c22f.jpg",
+    "static/media/card-img-4.jpg": "/Law-Firm/static/media/card-img-4.e53d11c2d383749ec502.jpg",
+    "static/media/card-img-3.jpg": "/Law-Firm/static/media/card-img-3.c1c2888fc08c54f6b3ab.jpg",
+    "static/media/procedural-3.jpg": "/Law-Firm/static/media/procedural-3.9791f70c93c3011bc2a0.jpg",
+    "static/media/suitman-handwriting.jpg": "/Law-Firm/static/media/suitman-handwriting.6a1da8e14b555f4bea46.jpg",
+    "static/media/procedural-1.jpg": "/Law-Firm/static/media/procedural-1.25747f65264389fad476.jpg",
+    "static/media/procedural-2.jpg": "/Law-Firm/static/media/procedural-2.d9c34f5ce05784571690.jpg",
+    "static/media/procedural-8.png": "/Law-Firm/static/media/procedural-8.2887a5b0b448bfb3bd84.png",
+    "static/media/moon.svg": "/Law-Firm/static/media/moon.7731b15b4318692faff7.svg",
+    "static/media/wave.svg": "/Law-Firm/static/media/wave.f099b98d2b4360d89d84.svg",
+    "index.html": "/Law-Firm/index.html",
+    "static/media/practice-bg.svg": "/Law-Firm/static/media/practice-bg.f0d1446ec332947b4726.svg",
+    "static/media/blog-wave.svg": "/Law-Firm/static/media/blog-wave.b46f14539fa0a471b098.svg"
+  },
+  "entrypoints": [
+    "static/css/main.7eea47e0.css",
+    "static/js/main.ba5b7b62.js"
+  ]
+}
