@@ -68,8 +68,8 @@ export default function ContactForm() {
                 <p className="form-col-one"><span><MdEmail /></span></p>
                 <p className="form-col-two">
                   <i>Email: </i>
-                  <a className="new-form-href" href="mailto:rasinlic.senad@gmail.com">
-                    rasinlic.senad@gmail.com
+                  <a className="new-form-href" href="mailto:info@advokat-rasinlic.com">
+                    info@advokat-rasinlic.com
                   </a>
                 </p>
               </li>
